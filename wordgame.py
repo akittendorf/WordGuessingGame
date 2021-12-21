@@ -66,8 +66,6 @@ while play_game == True:
             # print revealed letters
             current_word = [letter if letter in correct_guessed else '-' for letter in word]
             print(*current_word)
-            # update remaining_guesses
-            remaining_guesses = remaining_guesses - 1
         # incorrect guess
         else:
             # add guess to incorrect_guessed
