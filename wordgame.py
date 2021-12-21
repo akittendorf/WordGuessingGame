@@ -86,11 +86,12 @@ while play_game == True:
     answer = False
     while answer == False:
         play_again = input('Would you like to play again? Y/N')
-        if play_again != 'Y' or play_again != 'N':
+        if play_again != 'Y' and play_again != 'N':
             print("Invalid format. Please enter 'Y' to play again or 'N' to end game.")
         elif play_again == 'Y':
             answer = True
             print('Great! Preparing your next word.')
+            print('You have won {} game(s) and lost {} game(s)'.format(games_won,games_lost))
         else:
             answer = True
             print('Okay. Thanks for playing!')
