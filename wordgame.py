@@ -1,21 +1,3 @@
-# part 2 pseudocode
-# choose static word, use lower()
-# game won = False
-# prompt user for guess while remaining guesses > 0
-    # guess.lower() is in word       
-        # guess == word
-            # game won = True
-            # break
-        # guess != word
-            # remaining guesses -1
-            # continue
-    # guess.lower() not in word
-        # remaining guesses -1
-# if game won == False
-    # lose game
-# if won game == True
-    # win game
-        
 # WORD GUESSING GAME
 # get static word
 # word = 'Beesly'
